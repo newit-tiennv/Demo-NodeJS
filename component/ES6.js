@@ -36,5 +36,6 @@ console.log(v3);
 /**
  * Import
  */
-// import ABC from './string.js'
-// console.log(ABC("Jon", 21));//ERROR
+import ABC from './string';
+// const ABC = require('./string');
+console.log(ABC("Jon", 21)); //ERROR

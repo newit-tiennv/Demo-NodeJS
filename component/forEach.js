@@ -12,3 +12,21 @@ var officers = [
 officers.forEach((e, i) => officers[i].id = e.id * 2);
 
 console.log(officers);
+
+/**
+ * Example
+ */
+
+var arr = [
+    { id: 20, name: 'Captain Piett' },
+    { id: 24, name: 'General Veers' },
+    { id: 56, name: 'Admiral Ozzel' },
+    { id: 88, name: 'Commander Jerjerrod' }
+];
+
+const idList = [];
+const ids = arr.forEach( e => {
+    return idList.push(e.name);
+})
+
+console.log(idList);
