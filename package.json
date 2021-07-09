@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resource/scss/app.scss src/publish/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +22,12 @@
   },
   "homepage": "https://github.com/newit-tiennv/Demo-NodeJS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.9"
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.9",
+    "sass": "^1.35.2"
   }
 }
